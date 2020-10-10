@@ -1,4 +1,4 @@
-# remidner-app
+# reminder-app
 Aplicación apara gestionar las facturas a pagar [WIP]
 
 Objetivos: 
