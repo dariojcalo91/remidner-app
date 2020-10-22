@@ -2,22 +2,16 @@ import React from 'react';
 import {
   SafeAreaView,
   StyleSheet,
-  ScrollView,
-  StatusBar,
+  Text,
 } from 'react-native';
 
-import { Login } from './src/container/Login';
+import { Main } from './src/container/Main';
 
 const App: () => React.ReactElement = () => {
   return (
     <>
       <SafeAreaView style={styles.container}>
-        <ScrollView
-          contentInsetAdjustmentBehavior="automatic"
-        >
-          <Login/>
-          
-        </ScrollView>
+          <Main /> 
       </SafeAreaView>
     </>
   );
@@ -26,17 +20,8 @@ const App: () => React.ReactElement = () => {
 const styles = StyleSheet.create({
   
   container: {
-    flexDirection: "column"
+    flexDirection: "column",
   },
-  image: {
-    justifyContent: "center"
-  },
-  text: {
-    color: "grey",
-    fontSize: 30,
-    fontWeight: "bold"
-  }
-  
 });
 
 export default App;
